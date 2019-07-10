@@ -1,0 +1,23 @@
+{
+  "name": "api-snapshot",
+  "version": "0.0.1",
+  "description": "A CLI tool to check whether specified API breaks by comparing snapshot.",
+  "repository": "https://github.com/plantain-00/api-snapshot.git",
+  "author": "plantain-00",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/plantain-00/api-snapshot/issues"
+  },
+  "homepage": "https://github.com/plantain-00/api-snapshot#readme",
+  "dependencies": {
+    "minimist": "1",
+    "api-snapshot-core": "^0.0.1"
+  },
+  "files": [
+    "dist",
+    "bin"
+  ],
+  "bin": {
+    "api-snapshot": "bin/api-snapshot"
+  }
+}

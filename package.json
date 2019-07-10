@@ -1,0 +1,51 @@
+{
+  "name": "api-snapshot",
+  "version": "0.0.1",
+  "description": "A CLI tool to check whether specified API breaks by comparing snapshot.",
+  "main": "index.js",
+  "scripts": {
+    "bootstrap": "lerna bootstrap -- --frozen-lockfile",
+    "build": "clean-scripts build",
+    "lint": "clean-scripts lint",
+    "test": "clean-scripts test",
+    "fix": "clean-scripts fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/plantain-00/api-snapshot.git"
+  },
+  "author": "York Yao",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/plantain-00/api-snapshot/issues"
+  },
+  "homepage": "https://github.com/plantain-00/api-snapshot#readme",
+  "devDependencies": {
+    "@commitlint/cli": "8.0.0",
+    "@commitlint/config-conventional": "8.0.0",
+    "@types/jasmine": "3.3.13",
+    "@types/minimist": "1.2.0",
+    "@types/node": "12.6.2",
+    "@typescript-eslint/eslint-plugin": "1.11.0",
+    "@typescript-eslint/parser": "1.11.0",
+    "clean-release": "2.7.0",
+    "clean-scripts": "1.11.2",
+    "eslint": "6.0.1",
+    "eslint-config-prettier": "6.0.0",
+    "eslint-plugin-plantain": "0.1.2",
+    "jasmine": "3.4.0",
+    "lerna": "^3.4.0",
+    "markdownlint-cli": "0.17.0",
+    "no-unused-export": "1.9.0",
+    "rimraf": "2.6.3",
+    "type-coverage": "2.0.4",
+    "typescript": "3.5.3"
+  },
+  "dependencies": {
+    "minimist": "1.2.0",
+    "tslib": "1.10.0"
+  },
+  "typeCoverage": {
+    "atLeast": 100
+  }
+}
