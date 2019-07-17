@@ -21,5 +21,5 @@ run `api-snapshot`
 ## API
 
 ```ts
-import { foo } from 'api-snapshot-core'
+import { getSnapshot } from 'api-snapshot-core'
 ```

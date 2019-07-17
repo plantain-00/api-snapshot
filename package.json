@@ -1,6 +1,5 @@
 {
   "name": "api-snapshot",
-  "version": "0.0.1",
   "description": "A CLI tool to check whether specified API breaks by comparing snapshot.",
   "main": "index.js",
   "scripts": {
@@ -47,5 +46,9 @@
   },
   "typeCoverage": {
     "atLeast": 100
-  }
+  },
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ]
 }
