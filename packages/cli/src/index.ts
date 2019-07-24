@@ -24,7 +24,7 @@ async function executeCommandLine() {
   suppressError = !!argv.suppressError
 
   // todo
-  getSnapshot()
+  await getSnapshot('./packages/core/demo')
 }
 
 executeCommandLine().then(() => {

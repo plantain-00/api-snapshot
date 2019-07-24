@@ -1,1 +1,55 @@
+NodeObject {
+  pos: 0,
+  end: 52,
+  flags: 0,
+  modifierFlagsCache: 536870913,
+  transformFlags: 0,
+  parent: undefined,
+  kind: 240,
+  jsDoc:
+   [ NodeObject {
+       pos: 0,
+       end: 25,
+       flags: 0,
+       modifierFlagsCache: 0,
+       transformFlags: 0,
+       parent: [Circular],
+       kind: 297,
+       tags: [Array],
+       comment: undefined } ],
+  decorators: undefined,
+  modifiers:
+   [ TokenObject {
+       pos: 0,
+       end: 32,
+       flags: 0,
+       modifierFlagsCache: 0,
+       transformFlags: 0,
+       parent: undefined,
+       kind: 86 },
+     pos: 0,
+     end: 32 ],
+  asteriskToken: undefined,
+  name:
+   IdentifierObject {
+     pos: 41,
+     end: 45,
+     flags: 0,
+     modifierFlagsCache: 0,
+     transformFlags: 0,
+     parent: undefined,
+     escapedText: 'foo' },
+  typeParameters: undefined,
+  parameters: [ pos: 46, end: 46 ],
+  body:
+   NodeObject {
+     pos: 47,
+     end: 52,
+     flags: 0,
+     modifierFlagsCache: 0,
+     transformFlags: 0,
+     parent: undefined,
+     kind: 219,
+     multiLine: true,
+     statements: [ pos: 49, end: 49 ] } }
 api-snapshot success.

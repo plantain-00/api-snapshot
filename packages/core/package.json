@@ -12,7 +12,9 @@
   },
   "homepage": "https://github.com/plantain-00/api-snapshot#readme",
   "dependencies": {
-    "tslib": "1"
+    "ts-lib-utils": "^2.2.0-alpha.2",
+    "tslib": "1",
+    "typescript": "3"
   },
   "files": [
     "dist"
