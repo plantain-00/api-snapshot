@@ -1,4 +1,6 @@
 /**
  * @public
  */
-export function getSnapshot() {}
+export function getSnapshot() {
+  return
+}
