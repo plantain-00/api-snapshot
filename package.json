@@ -41,7 +41,7 @@
     "typescript": "3.6.3"
   },
   "dependencies": {
-    "minimist": "1.2.0",
+    "minimist": "1.2.3",
     "tslib": "1.10.0"
   },
   "typeCoverage": {
